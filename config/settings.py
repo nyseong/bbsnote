@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-n-q4c&62f9e5&7)t9akkk_qtu=6wcalhci6=g^em3_%*z3p&2_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True # 에러메시지를 띄워줌(개발환경에서는 무조건 True)
 
-ALLOWED_HOSTS = [] # 실제 서비스 되는 IP주소
+ALLOWED_HOSTS = ['15.164.206.142'] # 실제 서비스 되는 IP주소
 
 
 # Application definition
